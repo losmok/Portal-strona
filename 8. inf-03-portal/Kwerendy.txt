@@ -1,0 +1,4 @@
+1.SELECT `haslo` FROM `uzytkownicy` WHERE `login` = "Justyna";
+2.SELECT count(id) FROM dane;
+3.SELECT uzytkownicy.login, dane.rok_urodz, dane.przyjaciol, dane.hobby, dane.zdjecia FROM uzytkownicy JOIN dane ON dane.id=uzytkownicy.id WHERE uzytkownicy.login="Justyna"
+4.ALTER TABLE dane ADD stanowisko TEXT;
